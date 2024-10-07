@@ -1,9 +1,7 @@
 // src/components/ItemCount.jsx
-import React, { useState } from 'react';
+import React from 'react';
 
-const ItemCount = () => {
-  const [count, setCount] = useState(1);
-
+const ItemCount = ({ count, setCount }) => {
   const handleAdd = () => setCount(count + 1);
   const handleSubtract = () => setCount(count > 1 ? count - 1 : 1);
 
@@ -17,3 +15,4 @@ const ItemCount = () => {
 };
 
 export default ItemCount;
+

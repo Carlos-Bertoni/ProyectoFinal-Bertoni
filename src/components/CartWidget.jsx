@@ -1,8 +1,10 @@
-// Componente Carrito en src/components/CartWidget.jsx
-import React from 'react';
+// src/components/CartWidget.jsx
+import React, { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
 
 const CartWidget = () => {
-  const itemCount = 0; // Este valor cambiará según los artículos en el carrito
+  const { getTotalItems } = useContext(CartContext);
+  const itemCount = getTotalItems();
 
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -13,4 +15,3 @@ const CartWidget = () => {
 };
 
 export default CartWidget;
-
