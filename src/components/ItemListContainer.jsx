@@ -25,7 +25,7 @@ const ItemListContainer = ({ message }) => {
             ? mockItems.filter(item => item.category === categoryId)
             : mockItems;
           resolve(filteredItems);
-        }, 1000);
+        }, 1500);
       });
     };
 
