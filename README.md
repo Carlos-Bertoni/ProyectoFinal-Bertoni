@@ -1,7 +1,5 @@
-Aquí tienes un ejemplo de markdown para la entrega final de tu proyecto de e-commerce hecho en React con Vite, Firebase, React Router y React Bootstrap:
-
 ````markdown
-# Proyecto E-commerce
+# Proyecto E-commerce Entrega Final Curso React JS
 
 Este proyecto es una aplicación web de comercio electrónico construida con **React** y **Vite**. La aplicación permite a los usuarios navegar por un catálogo de productos, ver detalles de cada uno, agregar productos al carrito de compras y finalizar la compra.
 
@@ -16,9 +14,8 @@ Este proyecto es una aplicación web de comercio electrónico construida con **R
 
 - **React**: Para la construcción de la interfaz de usuario y la gestión de componentes.
 - **Vite**: Como herramienta de construcción rápida y configuración del entorno de desarrollo.
-- **Firebase**: Se utiliza Firebase Firestore para gestionar la base de datos de productos y pedidos. También se utiliza Firebase Authentication para gestionar el inicio de sesión de los usuarios.
+- **Firebase**: Se utiliza Firebase Firestore para gestionar la base de datos de productos y pedidos. También se utiliza Firebase Authentication para gestionar el inicio de sesión de los usuarios. (No logrado).
 - **React Router**: Para manejar la navegación dentro de la aplicación de una manera declarativa y mantener la SPA (Single Page Application).
-- **React Bootstrap**: Para el diseño responsivo de la aplicación con componentes preconstruidos que mejoran la estética y funcionalidad.
 
 ### Principales Componentes:
 
